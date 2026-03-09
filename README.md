@@ -20,6 +20,7 @@ This project develops a robust predictive model to estimate public funding amoun
 - **Key Predictors / Features:** Project description (`resume_projet`), Location (`commune_code`), Legal Category
 - **Preprocessing:** Handled missing values via informative imputation, target encoding for high-cardinality features, FastText embeddings
 - **Data Availability:** Provided in `data/`
+- **External Dependencies:** Facebook's pre-trained French FastText model (`cc.fr.300.bin`, 7GB decompressed) downloaded automatically during pipeline execution.
 
 ---
 
